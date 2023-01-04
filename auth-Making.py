@@ -23,7 +23,7 @@ if hex == 'Y':
         cyan = iran0+iran1+iran2+iran3+iran4+iran5+iran6+iran7+iran8+iran9+iran10+iran11+iran12+iran13+iran14+iran15+iran16+iran17+iran18+iran19+iran20+iran21+iran23+iran24+iran25+iran26+iran27+iran28+iran29+iran30+iran31+iran32
         f = open(f'Auth_list1{hero}.txt', '+a')
         max = None
-        f.write("'" + cyan + '"' + ',')
+        f.write(cyan + '\n')
         time.sleep(0)
         print(Fore.GREEN+'Auth Making...')
         f.close()
